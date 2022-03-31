@@ -10,18 +10,18 @@ So many movies, so little time. To make sure you do not miss any good movies, yo
 - See the watch list.
 
 ##
-The application is implemented in C++, using Qt framework, and uses layered architecture.
-Specifications are provided for non-trivial functions outside the GUI. 
-Started with an in-memory repository, but switched to a text file based repository.
-All input data is validated; implemented Validator classes for properly validating the entities and custom Exception classes are used to signal errors.
-Insertion and extraction operators for the entities are created and used when reading/writing to files.
-Command design pattern is used for implementing a multiple undo/redo functionality.
-OOP concepts used: inheritance, abstraction, encapsulation, polymorphism, operator overloading.
+* The application is implemented in C++, using Qt framework, and uses layered architecture.
+* Specifications are provided for non-trivial functions outside the GUI. 
+* Started with an in-memory repository, but switched to a text file based repository.
+* All input data is validated; implemented Validator classes for properly validating the entities and custom Exception classes are used to signal errors.
+* Insertion and extraction operators for the entities are created and used when reading/writing to files.
+* Command design pattern is used for implementing a multiple undo/redo functionality.
+* OOP concepts used: inheritance, abstraction, encapsulation, polymorphism, operator overloading.
 
 ## Demo
 
 - choose input as CSV or HTML
-- 
+ 
   ![input](https://github.com/DiaconuAna/Movie-Manager/blob/main/Resources/input.png)
 
 - opening window
